@@ -22,20 +22,17 @@ body{
 
 
 header {
+    min-width: 120px;
     width: 80%;
     height: 130px;
     margin: auto;
 
 }
 
-.h-container {
-    height: 130px;
-    min-width: 670px;
-}
 
 .h-first{
-    width: 350px;
-    min-width: 300px;
+    width: 120px;
+    min-width: 120px;
     float:left;
     line-height: 130px;
 }
@@ -46,11 +43,14 @@ header {
     line-height: 130px;
 }
 .logo{
+    width: inherit;
+    min-width: 120px;
     font-size: 30px;
     font-weight: 500;
     cursor: pointer;
 }
 .item{
+    min-width: 80px;
     font-weight: 500;
     margin-left: 20px;
     margin-right: 20px;
@@ -79,6 +79,7 @@ header {
 }
 
 .b-firstBox{
+    min-width: 480px;
     width: 50%;
     height: auto;
 }
